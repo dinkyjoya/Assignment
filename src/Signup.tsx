@@ -32,6 +32,9 @@ const Signup = () => {
     >
       {(props)=>(
  <form className='login-form' onSubmit={props.handleSubmit}>
+  <h1>
+    SIGN UP
+  </h1>
  <div className="input-group">
    <label>Name</label>
    <input type="text" name="name" placeholder='Type your name here' onChange={props.handleChange} value={props.values.name}/>

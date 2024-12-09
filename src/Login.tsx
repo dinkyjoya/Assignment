@@ -30,6 +30,9 @@ const Login = () => {
     >
       {(props)=>(
  <form className='login-form' onSubmit={props.handleSubmit}>
+   <h1>
+    LOGIN
+  </h1>
  <div className="input-group">
    <label>Email</label>
    <input type="email" name="email" placeholder='I need your email' onChange={props.handleChange} value={props.values.email}/>
